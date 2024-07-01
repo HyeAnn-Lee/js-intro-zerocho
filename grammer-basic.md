@@ -139,3 +139,34 @@
   - `null` : 값이자 자료형임 (`null`라는 type을 가진 값은 `null` 밖에 없음. 아래 codeset의 `typeof`의 결과는 JS의 고질적인 버그(??!!))
 
     ![codeset snapshot](img/day02/day02-12.png)
+
+# Day 3
+
+- 변수 선언 
+
+  - `let`
+
+    ```
+    > let total = 5 + 8;
+    < undefined
+    > total;
+    < 13
+
+    > let empty;
+    < undefined
+    > empty;
+    < undefined
+    ```
+
+  - `const` : 상수를 선언할 때 사용. 초기화하지 않으면 에러가 남.
+
+  - `var` : 옛날에 많이 사용했었음.
+
+- 조건문
+
+  - ![codeset snapshot](img/day03/day03-01.png)
+  - ![codeset snapshot](img/day03/day03-02.png)
+  - ![codeset snapshot](img/day03/day03-03.png)
+  - `if` - `else if` - `else` 존재.
+  - `switch` - `case` 존재.
+  - 삼항 연산자 `(condition) ? (when true) : (when false)` 존재.
