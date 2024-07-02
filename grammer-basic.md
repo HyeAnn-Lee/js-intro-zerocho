@@ -170,3 +170,42 @@
   - `if` - `else if` - `else` 존재.
   - `switch` - `case` 존재.
   - 삼항 연산자 `(condition) ? (when true) : (when false)` 존재.
+  
+# Day 4
+
+- 반복문
+  - `while`, `for(시작; 조건식; 종료식)`, `break`, `continue`
+  
+- 객체 - 배열
+  
+  - array 생성하기
+  
+    ![codeset snapshot](img/day04/day04-01.png)
+  
+  - element 개수 구하기 : `.length`  +) `.at()`
+  
+    ![codeset snapshot](img/day04/day04-02.png)
+  
+  - element 추가하기 : `.unshift()`, `.push()`
+  
+    ![codeset snapshot](img/day04/day04-03.png)
+  
+  - element 삭제하기 : `.pop()`, `.shift()`, `.splice()`
+  
+    ![codeset snapshot](img/day04/day04-04.png)
+    ![codeset snapshot](img/day04/day04-05.png)
+
+  - element 찾기 : `.includes()`, `.indexOf()`, `.lastIndexOf()`... naming convention이 어우....
+
+    ![codeset snapshot](img/day04/day04-06.png)
+    ![codeset snapshot](img/day04/day04-07.png)
+
+  - array 자르고 합치기 : `<array>.slice(<start>, <end>)`, `<array>.concat(...)`
+
+    ![codeset snapshot](img/day04/day04-08.png)
+
+    흠.. 전체적으로 얼렁뚱땅 진행되는 언어인가.. 에러도 안 나고..
+
+  - array와 string 간의 변환 : `.join()`, `.split()`
+
+    ![codeset snapshot](img/day04/day04-09.png)
