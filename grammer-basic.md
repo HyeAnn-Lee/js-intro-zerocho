@@ -209,3 +209,22 @@
   - array와 string 간의 변환 : `.join()`, `.split()`
 
     ![codeset snapshot](img/day04/day04-09.png)
+
+  - `flat()`, `fill()`
+
+    - `flat()` : n차원 배열을 (n-1)차원 배열로 낮춰준다.
+      ![codeset snapshot](img/day04/day04-10.png)
+
+    - `fill()`
+      ![codeset snapshot](img/day04/day04-11.png)
+  
+  - Set
+    - 문자열 에바;; ㅋㅋ
+
+      ![codeset snapshot](img/day04/day04-12.png)
+    
+- 객체 - 함수
+  - 함수 선언하기
+    1. `function <name> (<params>) {<body>}`
+    2. `const <name> = function (<params>) {<body>}`
+    3. `const <name> = (<params>) => {<body>}`
